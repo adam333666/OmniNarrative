@@ -14,7 +14,7 @@
 
 🎥 **猛戳下方查看完整项目演示视频** 🎥
 
-<video src="demo_video.mp4" controls="controls" width="100%" muted="true"></video>
+👉 **[点击此处在线播放演示视频 (在浏览器中免下载观看)](./demo_video.mp4)** 👈
 
 ---
 
