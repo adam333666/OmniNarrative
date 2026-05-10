@@ -1,0 +1,74 @@
+.section {
+  display: grid;
+  gap: 1.2rem;
+}
+
+.copy {
+  display: grid;
+  gap: 0.85rem;
+  max-width: 48rem;
+}
+
+.eyebrow {
+  display: inline-flex;
+  width: fit-content;
+  border-radius: 999px;
+  padding: 0.34rem 0.72rem;
+  background: rgba(31, 29, 26, 0.06);
+  color: var(--accent-2);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 0;
+  font-size: clamp(1.8rem, 3vw, 2.7rem);
+  line-height: 1.12;
+}
+
+.lead {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  align-items: center;
+}
+
+.primaryCta,
+.secondaryCta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  padding: 0.9rem 1.3rem;
+  font-size: 0.98rem;
+  font-weight: 600;
+}
+
+.primaryCta {
+  background: linear-gradient(135deg, #b44f2c, #dd7a4c);
+  color: #fffaf6;
+}
+
+.secondaryCta {
+  border: 1px solid rgba(32, 37, 61, 0.12);
+  background: rgba(255, 252, 247, 0.8);
+  color: var(--foreground);
+}
+
+.gridShell {
+  border: 1px solid rgba(32, 37, 61, 0.08);
+  border-radius: 34px;
+  padding: 1.1rem;
+  background:
+    radial-gradient(circle at top left, rgba(239, 124, 72, 0.14), transparent 22%),
+    radial-gradient(circle at right center, rgba(63, 140, 126, 0.12), transparent 24%),
+    linear-gradient(180deg, rgba(255, 252, 246, 0.96), rgba(246, 238, 226, 0.9));
+  box-shadow: 0 20px 60px rgba(33, 22, 15, 0.08);
+}

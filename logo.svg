@@ -1,0 +1,32 @@
+<svg width="500" height="150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#333333;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- 图标部分：融合了镜头(多模态)和无限(全方位)的概念 -->
+  <g transform="translate(10, 25)" filter="url(#shadow)">
+    <!-- 外圈圆环 -->
+    <circle cx="50" cy="50" r="40" stroke="url(#grad1)" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <!-- 播放按钮(叙事/视频) -->
+    <path d="M 40 30 L 70 50 L 40 70 Z" fill="url(#grad1)" />
+  </g>
+
+  <!-- 文字部分 -->
+  <text x="130" y="95" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="48" font-weight="900" fill="url(#textGrad)">
+    Omni<tspan fill="url(#grad1)">Narrative</tspan>
+  </text>
+  
+  <text x="135" y="125" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#666666" letter-spacing="2">
+    Multi-modal Narrative Engine
+  </text>
+</svg>

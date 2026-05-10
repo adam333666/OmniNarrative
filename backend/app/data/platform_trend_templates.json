@@ -1,0 +1,938 @@
+[
+  {
+    "platform": "bilibili",
+    "content_type": "auto",
+    "summary": "2026年B站汽车内容进入“智性沸腾”阶段，用户不再满足于参数罗列，转向追求“工具理性”与“情绪价值”的深度结合。内容核心在于将复杂技术参数转化为可感知的个人生活场景，强调通过“非说明书用法”展现车辆的个性化价值，实现从单纯测评到构建个人生活掌控感的叙事升级。",
+    "hook_patterns": [
+      "抛出反直觉的用车痛点或场景矛盾",
+      "以“非说明书用法”作为开篇悬念",
+      "直接展示车辆在特定生活场景下的“智性”解决方案",
+      "先抛核心设问"
+    ],
+    "rhythm_patterns": [
+      "开篇：核心设问",
+      "矛盾切入",
+      "快速建立认知冲突",
+      "中段：高密度知识拆解"
+    ],
+    "title_cover_style": [
+      "命题式标题：强调“智性”与“解决方案”",
+      "设问型封面：对比强烈的场景化文案",
+      "突出“反直觉”或“掌控感”",
+      "命题式标题"
+    ],
+    "audience_preference_summary": "偏好硬核体验与高质价比的结合；青睐“人格化”沟通；反感说教式营销；追求通过车辆构建“个人结界”的掌控感与情绪安放",
+    "avoid_patterns": [
+      "机械罗列枯燥的技术参数",
+      "缺乏生活场景支撑的空洞评价",
+      "高高在上的说教式叙事",
+      "只给结论不给推理"
+    ],
+    "hot_topics_summary": [
+      "智性沸腾：理性决策与情感共鸣的统一",
+      "局部改造：将车内空间打造为个人掌控的微观结界",
+      "非说明书用法：发掘车辆的创意潜能与个性化场景",
+      "无感智能：AI作为生活合伙人的深度体验",
+      "设定讨论"
+    ],
+    "interaction_patterns": [
+      "评论区补全“非说明书用法”案例",
+      "围绕车辆设定漏洞或极端场景进行二次推理",
+      "分享个人用车生活中的“掌控感”瞬间",
+      "评论区补反例"
+    ],
+    "emotional_entry_points": [
+      "认知冲突：打破对传统汽车功能的刻板印象",
+      "掌控感：通过车辆配置提升生活效能的满足感",
+      "精神安放：将车视为安顿自我",
+      "逃离焦虑的避风港"
+    ],
+    "creator_angle_summary": "以“生活合伙人”视角；将技术卖点融入用户真实生活场景；强调“平视”沟通；通过解构与再造展现车辆的独特价值；注重内容资产沉淀；将单次测评转化为长效的信任关系",
+    "source_trace": [
+      {
+        "title": "BILIBILI 2026年轻人消费趋势报告",
+        "link": "https://ctrchina.cn",
+        "excerpt": "年轻人消费动机从外在悦人转向内在悦己，追求工具理性与情绪价值的统一。",
+        "source_name": "CTR市场研究"
+      },
+      {
+        "title": "【汽车行业】2026年1-2月热点趋势洞察报告",
+        "link": "https://bilibili.com",
+        "excerpt": "建议汽车客户从情感化场景叙事切入，将技术卖点转化为可感知的生活价值。",
+        "source_name": "B站营销洞察"
+      }
+    ],
+    "source_type": "aihubmix_search_collected",
+    "updated_at": "2026-04-02T08:26:08.358885Z"
+  },
+  {
+    "platform": "bilibili",
+    "content_type": "science_popularization",
+    "summary": "2026年B站科普内容进入“深度心智”与“AI共创”双轨期。用户对纯粹的知识获取需求正被AI搜索分流，因此视频需强化“人格化叙事”与“硬核体验感”，通过高密度、逻辑严密的知识链条，结合视觉化的实验或场景重构，提供AI难以替代的深度洞察与情绪价值。",
+    "hook_patterns": [
+      "反直觉结论开场：直接推翻大众认知",
+      "引发认知失调",
+      "极端场景设问：将知识点置于极限环境（如高空",
+      "微观"
+    ],
+    "rhythm_patterns": [
+      "前段：30秒内完成核心冲突抛出与反常识结论展示",
+      "中段：采用“问题拆解-逻辑推演-实验",
+      "案例验证”的闭环解释链",
+      "后段：升华认知"
+    ],
+    "title_cover_style": [
+      "标题：问题拆解式",
+      "强调“为什么”",
+      "“如何判断”",
+      "“真相是”"
+    ],
+    "audience_preference_summary": "偏好高知、高质、硬核体验。不仅要“讲清楚”，更要“带走判断力”。对AI生成的泛泛而谈感到疲劳，更青睐有UP主个人审美、独特视角和深度逻辑的原创内容。",
+    "avoid_patterns": [
+      "术语堆叠导致的“掉书袋”感",
+      "解释链条中途断裂或逻辑跳跃",
+      "纯粹的AI语音配音加素材拼接",
+      "缺乏人格化互动"
+    ],
+    "hot_topics_summary": [
+      "AI技术与人类创作的边界探讨",
+      "反常识的科学冷知识与历史真相",
+      "提升生活效能的硬核技能与认知升级",
+      "知识拆解",
+      "反常识问题"
+    ],
+    "interaction_patterns": [
+      "评论区追问原理细节",
+      "形成“课后讨论”氛围",
+      "补充反例或个人案例",
+      "进行“知识共创”"
+    ],
+    "emotional_entry_points": [
+      "认知冲突带来的求知欲",
+      "通过掌握硬核知识获得的身份认同",
+      "对复杂世界进行逻辑重构后的掌控感",
+      "认知冲突"
+    ],
+    "creator_angle_summary": "从“知识讲解员”向“认知教练”转型。不仅是传递信息，而是通过独特的逻辑链条，帮助用户建立对世界的判断框架，强调个人风格在知识表达中的稀缺性。",
+    "source_trace": [
+      {
+        "title": "BILIBILI 2026年轻人消费趋势报告",
+        "link": "https://ctrchina.cn",
+        "excerpt": "年轻人通过消费弥补情感缺口，并投资于兴趣培养、技能提升等未来自我构建。",
+        "source_name": "央视市场研究"
+      },
+      {
+        "title": "B站首届AI创作大赛收官，一等奖UP主斩获百万奖金",
+        "link": "https://163.com",
+        "excerpt": "B站宣布将把AI创作大赛作为长期项目举办，推动优秀的短篇作品向系列化、长视频方向开发。",
+        "source_name": "网易新闻"
+      },
+      {
+        "title": "300亿营收背后的隐忧：B站为何越赚钱，越不被看好",
+        "link": "https://163.com",
+        "excerpt": "当讲解知识这件事变得不再稀缺，B站的差异化优势在于把复杂信息讲清楚，并提供人格化的深度洞察。",
+        "source_name": "网易新闻"
+      },
+      {
+        "title": "新一年B站百大UP主名单揭晓：73位非首次获奖！",
+        "link": "https://36kr.com",
+        "excerpt": "百大UP主年度投稿平均时长明显拉长，体现出B站作为一个中长视频平台的显著特征。",
+        "source_name": "36氪"
+      }
+    ],
+    "source_type": "aihubmix_search_collected",
+    "updated_at": "2026-04-02T08:26:08.358885Z"
+  },
+  {
+    "platform": "bilibili",
+    "content_type": "story",
+    "summary": "2026年B站Story内容进入“智性沸腾”阶段，用户追求高密度信息与真实情绪的结合。内容逻辑需具备工具理性（解决问题）与精神安放（情感共鸣）双重属性，强调在微观场景中通过“反骨共创”或“局部改造”展现个人掌控感。",
+    "hook_patterns": [
+      "抛出反直觉的个人处境",
+      "直接展示高压下的情绪崩溃瞬间",
+      "用AI辅助生成的视觉奇观开场",
+      "以“非说明书用法”的实验性设问切入"
+    ],
+    "rhythm_patterns": [
+      "前段：极速建立人物困境与反差状态",
+      "中段：通过设问与逻辑链条推演冲突",
+      "后段：提供情绪出口或实用解决方案",
+      "节奏：高频剪辑配合密集信息点"
+    ],
+    "title_cover_style": [
+      "标题：情绪共鸣+智性反差（如：我把客厅搬进云端",
+      "只为找回掌控感）",
+      "封面：人物真实状态特写+极简高对比度文案",
+      "情绪共鸣式标题"
+    ],
+    "audience_preference_summary": "偏好能代入的“个人结界”式生活叙事；对AI辅助创作的视觉质感有高要求；渴望在视频中获得“精神同类”的价值认同；倾向于观看具备工具价值的深度解析",
+    "avoid_patterns": [
+      "无意义的情绪空转与堆砌",
+      "动机模糊的叙事逻辑",
+      "缺乏个人真实体验的纯AI生成内容",
+      "过度商业化导致的信任感缺失"
+    ],
+    "hot_topics_summary": [
+      "AI生活合伙人（AI工具应用）",
+      "局部精致与个人结界（生活掌控感）",
+      "反骨共创（非说明书式产品用法）",
+      "赛博合拍（虚拟与现实的情感连接）",
+      "人物关系"
+    ],
+    "interaction_patterns": [
+      "评论区补全个人经历以形成“共鸣圈层”",
+      "围绕视频中的逻辑漏洞或创意点进行“反骨”讨论",
+      "通过弹幕进行即时情绪反馈与价值投票",
+      "评论区补经历"
+    ],
+    "emotional_entry_points": [
+      "被理解的委屈感",
+      "掌控生活的成就感",
+      "赛博时代的孤独与寻找同类的渴望",
+      "对复杂现实的清醒认知"
+    ],
+    "creator_angle_summary": "创作者需从“分享者”转向“解决方案提供者”；利用AI工具提升产能；但核心逻辑必须基于真实的人文关怀与个人经验；通过构建“个人结界”场景；建立与观众的深度信任",
+    "source_trace": [
+      {
+        "title": "BILIBILI 2026年轻人消费趋势报告",
+        "link": "https://bilibili.com",
+        "excerpt": "提出“智性沸腾”概念，强调年轻人通过消费与内容构建自我认同，关注工具理性与精神安放。",
+        "source_name": "哔哩指数"
+      },
+      {
+        "title": "B站百大UP主名单揭晓",
+        "link": "https://36kr.com",
+        "excerpt": "百大UP主作品平均时长拉长，体现中长视频平台特征，强调专业性与影响力。",
+        "source_name": "36氪"
+      },
+      {
+        "title": "AI短剧催生内容创作新生态",
+        "link": "https://21jingji.com",
+        "excerpt": "AI技术降低创作门槛，一人剧组模式兴起，AI仿真人短剧成为重点内容方向。",
+        "source_name": "21世纪经济报道"
+      }
+    ],
+    "source_type": "aihubmix_search_collected",
+    "updated_at": "2026-04-02T08:26:08.358885Z"
+  },
+  {
+    "platform": "douyin",
+    "content_type": "auto",
+    "summary": "2026年抖音汽车内容已从单纯的“参数测评”转向“场景化体验”与“真实感共情”。用户更关注智驾安全、极端路况挑战及新能源用车痛点。内容创作强调AI辅助下的高效叙事，通过“真实痛点+硬核实测+情绪共鸣”的组合拳，将专业技术转化为大众可感知的爽点，实现从流量获取到人群资产沉淀的转化。",
+    "hook_patterns": [
+      "极端场景实测开场（如：暴雨夜测智驾）",
+      "反常识结论先行（如：这车比豪车更安全）",
+      "用户痛点直接质问（如：买新能源车你真的后悔了吗？）",
+      "先给反常识判断"
+    ],
+    "rhythm_patterns": [
+      "前3秒黄金冲突点",
+      "快速切入核心矛盾",
+      "高频剪辑配合音效",
+      "每5-8秒切换视觉焦点"
+    ],
+    "title_cover_style": [
+      "情绪强对比文案（如：千万别买！除非你懂这三点）",
+      "问题式标题（如：底盘整备到底是不是智商税？）",
+      "封面大字报+实测现场截图",
+      "突出视觉冲击力"
+    ],
+    "audience_preference_summary": "偏好即时理解、真实感强、能解决实际用车痛点的内容。对“科技感”与“安全感”有极高关注，倾向于通过评论区互动进行决策验证。",
+    "avoid_patterns": [
+      "冗长的参数罗列与枯燥的口播",
+      "过度滤镜与虚假完美的人设",
+      "抽象的理论论述",
+      "缺乏真实场景支撑"
+    ],
+    "hot_topics_summary": [
+      "智驾安全可视化测评",
+      "新能源车用车痛点与底盘整备",
+      "汽车+AI科技感跨界融合",
+      "品牌车型专修与避坑指南",
+      "情绪议题"
+    ],
+    "interaction_patterns": [
+      "评论区发起“用车经历接龙”",
+      "引导用户分享真实痛点",
+      "转发时引导用户带上“强结论”标签（如：看完这篇",
+      "买车不踩坑）"
+    ],
+    "emotional_entry_points": [
+      "反差爽点（如：平价车挑战豪车性能）",
+      "安全焦虑的释放（如：极端路况下的智驾表现）",
+      "真实陪伴感（如：创作者与粉丝共创产品迭代）",
+      "情绪冲击"
+    ],
+    "creator_angle_summary": "创作者应定位为“懂技术的真实体验官”，通过分布式内容策略，将专业知识拆解为碎片化、场景化的短视频，建立垂直领域的生态位第一。",
+    "source_trace": [
+      {
+        "title": "2026汽车行业活动发稿短视频化：抖音/快手内容如何策划？",
+        "link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHz4k23fCvDjwlCHbPweKF9__iPtaySvMGmMxec9HLVLIqaXWvALuxa_EVluqEwiAfu2c2jXVGQeFZfLTrRaIyDgTtJKujtjogiqyA0zmeb-XRDRbS-GZZ7zsIPYySc3dwQVNihZA==",
+        "excerpt": "聚焦L3自动驾驶商业化、800V高压平台等热点，通过动画演示、实车测试等形式降低理解门槛。",
+        "source_name": "媒介星"
+      },
+      {
+        "title": "2026年抖音运营增长究竟要怎么干？",
+        "link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtDivMlyiJm-8g8Q4vDE5-w6qRr3ro3-XxndYua7spu54ZBM30xgb89mruyG4MaawNHgmnGx3t76XX3te6kkAC61Bmo8RCWdpr4b8ao6-g14UP-7j6dtbnuCJjkR3GNtjorxJO4fY=",
+        "excerpt": "抖音算法主导下，品牌要打赢流量战，关键在于找准细分需求，做到生态位第一。",
+        "source_name": "人人都是产品经理"
+      },
+      {
+        "title": "流量越来越贵，2026大批修理厂放弃抖音、只能坐以待毙吗？",
+        "link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhKWBRuypfAQeUezANj7dZalAnSDz6SZfpQKqeYkB2CZfppo2fKC1PupmXbDk0dIlxe9xUW2xWqdoSsW4u5Q71xr3UqCR6jR_lnS0SBBuBPQjdTf9-HP3zzyQEKnxPSPsAqBooYA==",
+        "excerpt": "在流量标签化趋势下，专修和专项成为必然，底盘整备、新能源专修是重点。",
+        "source_name": "AC汽车"
+      }
+    ],
+    "source_type": "aihubmix_search_collected",
+    "updated_at": "2026-04-02T08:26:08.358885Z"
+  },
+  {
+    "platform": "douyin",
+    "content_type": "science_popularization",
+    "summary": "2026年抖音科普内容进入“深度与广度并重”阶段，用户对泛泛而谈的容忍度极低。核心趋势是从“短平快”向“高信息密度、强逻辑链、可复用知识”转型。AI辅助创作已成标配，重点在于通过“价值前置”替代“悬念钩子”，利用评论区互动作为二次分发的流量引擎。",
+    "hook_patterns": [
+      "价值前置：前1.8秒直接抛出核心结论或具体解决方案",
+      "反常识切入：用颠覆性事实打破用户固有认知",
+      "痛点场景化：描述一个具体",
+      "高频的困扰场景作为开场"
+    ],
+    "rhythm_patterns": [
+      "高信息密度：压缩废话",
+      "保持每秒信息增量",
+      "阶梯式推进：问题-拆解-结论-行动建议",
+      "节奏紧凑"
+    ],
+    "title_cover_style": [
+      "结论先行：封面直接展示核心观点或反差结论",
+      "清单",
+      "攻略式标题：强调“可带走”的知识价值",
+      "视觉对比：封面使用对比图或数据图表"
+    ],
+    "audience_preference_summary": "偏好高密度；可直接落地的知识点；对“电子老师”式深度内容接受度提升；倾向于通过评论区补充案例和反例来验证知识",
+    "avoid_patterns": [
+      "刻意制造悬念但内容空洞的“标题党”",
+      "术语堆叠导致的认知门槛过高",
+      "解释链条断裂",
+      "缺乏逻辑闭环"
+    ],
+    "hot_topics_summary": [
+      "前沿科技与硬核工业（如手搓航母",
+      "量子力学可视化）",
+      "深度行业揭秘（如医疗体系",
+      "财经分析）",
+      "人文历史的通俗化解读"
+    ],
+    "interaction_patterns": [
+      "设计选择题或争议点引导评论区讨论",
+      "利用评论区作为内容补充",
+      "通过回复优质评论触发二次推荐",
+      "鼓励收藏和复访"
+    ],
+    "emotional_entry_points": [
+      "认知升级带来的成就感",
+      "解决实际困扰后的获得感",
+      "对前沿科技或复杂世界的求知欲",
+      "认知冲突"
+    ],
+    "creator_angle_summary": "从“知识搬运工”转向“领域专家；深度解析者”；强调人设的专业度与独特表达风格；利用AI工具提升生产效率；将精力集中在逻辑拆解与内容深度上",
+    "source_trace": [
+      {
+        "title": "100个年度必看知识视频，圈出2026年抖音内容新趋势",
+        "link": "https://ofweek.com",
+        "excerpt": "抖音知识生态正走向多元，从人文社科、自然科普向商业财经、时政、法律、医疗健康等专业行业渗透。",
+        "source_name": "维科号"
+      },
+      {
+        "title": "2026抖音算法全指南：揭秘视频推荐背后的流量密码",
+        "link": "https://022999.com",
+        "excerpt": "观众决策时间缩短至1.8秒，价值前置优于悬念钩子，评论区活跃度成为新的流量密钥。",
+        "source_name": "凌创派"
+      },
+      {
+        "title": "抖音vs小红书vs视频号：2026三大平台的算法差异与内容打法解析",
+        "link": "https://dchbi.com",
+        "excerpt": "抖音正在从短视频平台变成综合内容平台，收藏、复访、追更等长期行为权重高于完播率。",
+        "source_name": "DCHBI"
+      }
+    ],
+    "source_type": "aihubmix_search_collected",
+    "updated_at": "2026-04-02T08:26:08.358885Z"
+  },
+  {
+    "platform": "douyin",
+    "content_type": "story",
+    "summary": "2026年抖音故事类内容核心在于“真实感”与“情绪价值”的深度融合。用户厌倦了完美滤镜，转向青睐带有瑕疵、克制表达、能引发本能共鸣的真实生活切片。叙事上强调“高密度信息”与“即时情感反馈”，通过白描手法挖掘平淡日常中的人性深度，利用AI辅助优化钩子，确保在3秒内建立连接，并引导用户通过评论区进行二次创作与情感交流。",
+    "hook_patterns": [
+      "开场即冲突：直接展示矛盾爆发瞬间或极端情绪状态",
+      "悬念式白描：用一句极具反差的日常对话或动作引发好奇",
+      "痛点共鸣：抛出当下年轻人普遍存在的心理困境或社交痛点",
+      "视觉冲击：利用电影感镜头或极简构图呈现人物孤独感"
+    ],
+    "rhythm_patterns": [
+      "前段：3秒内抛出核心冲突或情绪钩子",
+      "中段：通过快速剪辑推进关系变化",
+      "穿插细节白描",
+      "后段：留白式结尾"
+    ],
+    "title_cover_style": [
+      "情绪共鸣式：以第一人称口吻描述内心独白",
+      "状态型封面：人物特写+极简文字",
+      "强调“真实感”而非“精修感”",
+      "悬念式文案：用反问句或未完成的陈述句激发点击欲"
+    ],
+    "audience_preference_summary": "偏好真实、克制、有温度的内容。渴望在碎片化时间中获得情感慰藉，倾向于能代入自身经历、引发深度思考或提供情绪出口的叙事。",
+    "avoid_patterns": [
+      "过度煽情与虚假滤镜",
+      "动机不明的强行反转",
+      "情绪空转的无意义堆砌",
+      "冗长的铺垫与无效信息"
+    ],
+    "hot_topics_summary": [
+      "人际关系中的边界感",
+      "自我疗愈",
+      "真实生活记录",
+      "职场与情感的本能连接",
+      "年个体成长焦虑。"
+    ],
+    "interaction_patterns": [
+      "评论区补全故事：引导用户分享相似经历",
+      "观点碰撞：围绕关系中的是非对错展开讨论",
+      "情感抱团：通过评论区建立“被理解”的社群氛围",
+      "评论区补经历"
+    ],
+    "emotional_entry_points": [
+      "委屈感：被误解后的克制表达",
+      "被理解感：在平凡中被看见的瞬间",
+      "孤独感：向内探索时的自我对话",
+      "释怀感：与过去和解的瞬间"
+    ],
+    "creator_angle_summary": "创作者应从“表演者”转变为“观察者”与“陪伴者”。先建立真实处境，再通过克制的叙事推进情绪，将个人经历转化为具有普遍意义的人性观察。",
+    "source_trace": [
+      {
+        "title": "2026年TikTok趋势报告：从“流量抢夺”到“人心经营”",
+        "link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKWdxdvQjYmcw21lZJg7IP3tieMilG-Y-basTz7pD7nCwSs3F4aXADUzbiEIH9SAVQ-LjMm-3S3xPNB0QFfnldJBEFHsuzaQsVKaFq0cVgsk7kVx217Ni49WM0",
+        "excerpt": "用户厌倦了滤镜下的完美，渴望看到产品在真实生活场景中的表现，宣告了以“真实感、好奇心、人情味”为核心的情感营销新时代正式来临。",
+        "source_name": "易仓ERP"
+      },
+      {
+        "title": "2026创作指南：从抖音年度精选内容，我们总结出十大灵感选题",
+        "link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1iOeaBpmj-O5WAyigsXCs7TQNxHutCXy2SzKoqgaFuKjEJUQCyo6raTVvnKT3RMwvZ4agCEIMNgeAw9br9tPibwoLn1uQxh8hpfzY9lXNWxVQBswZpOPvAvSBkxjrVS9STk9yUTgP6VRSLncqUMvsHw==",
+        "excerpt": "情感类内容在2025年更注重“真实感”与“克制表达”。创作者通过微剧情、访谈等形式，呈现亲情、友情、爱情中的细腻瞬间，不过度煽情，却往往在平淡中击中人心。",
+        "source_name": "新榜"
+      },
+      {
+        "title": "2026 短影音行銷秘笈！從企劃到腳本，打造中小企業爆款影片",
+        "link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9eJMH0tRNV6E5ODk_Tv8qYvADRqof2NbRppKGWMnSMRYJ2xjkimssw9Z6NQUGKNdaw7yxlLMUMa-gd7ETJ5HShqfkm98fvgNz8U-Ika-PS1y7BUxl-g2mCk3zDZZqkg==",
+        "excerpt": "短影音讲求大量的共鸣感，透过短影音的力量来产生与受众间的共鸣，就会更容易拉近品牌与受众的距离，从而提高两者的互动性。",
+        "source_name": "xway.com.tw"
+      }
+    ],
+    "source_type": "aihubmix_search_collected",
+    "updated_at": "2026-04-02T08:26:08.358885Z"
+  },
+  {
+    "platform": "kuaishou",
+    "content_type": "auto",
+    "summary": "2026年快手汽车内容核心在于“真实生活场景下的信任构建”。创作者需从单纯的参数讲解转向以人物处境、家庭需求为核心的叙事，强调汽车作为生活伙伴的真实价值。平台鼓励通过AI辅助提升内容生产效率，但内容内核必须保持“老铁文化”的接地气与真诚感。",
+    "hook_patterns": [
+      "抛出具体生活痛点（如：带娃出行",
+      "回乡路况",
+      "油耗焦虑）",
+      "展示人物真实状态（如：刚下班的疲惫"
+    ],
+    "rhythm_patterns": [
+      "叙事直线推进",
+      "拒绝复杂剪辑",
+      "口语化表达",
+      "像老友聊天"
+    ],
+    "title_cover_style": [
+      "口语化标题",
+      "直击痛点或情绪",
+      "人物状态型封面",
+      "强调人与车的真实互动感"
+    ],
+    "audience_preference_summary": "重视真实感与情绪直达，偏好10-20万燃油车及新能源小型车，关注购车后的实际用车成本、家庭适用性及本地化服务体验。",
+    "avoid_patterns": [
+      "过度包装的精美大片感",
+      "脱离实际的参数堆砌",
+      "概念过虚的营销话术",
+      "过度包装"
+    ],
+    "hot_topics_summary": [
+      "家庭用车场景（带娃",
+      "露营",
+      "回乡）",
+      "用车真实困境（油耗",
+      "维修"
+    ],
+    "interaction_patterns": [
+      "评论区补真实用车经历",
+      "围绕人物处境展开共鸣讨论",
+      "引导用户分享本地购车优惠信息",
+      "评论区补真实经历"
+    ],
+    "emotional_entry_points": [
+      "生活压力下的务实选择",
+      "家庭责任感与幸福感",
+      "对真实生活品质的追求",
+      "生活压力"
+    ],
+    "creator_angle_summary": "创作者应定位为“懂车的身边人”，从人物处境和生活现场切入，通过真诚分享建立信任，避免过度概念化，强调“人、车、生活”的深度绑定。",
+    "source_trace": [
+      {
+        "title": "2025年快手汽车行业报告，2.7 亿强兴趣用户加持",
+        "link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHgFLDE8pyzZWP8PCcisVx-t-PMvhl33EFmddBx1MXTX_ryBFcjNu2o0DA_2H0w7yZTlAGghLv7tnlWVtnr4u6rUDtn2LMLvZKTFatfcOavbLRxyAD1hwSY3kjIpNlFyf5s-f4bTacOkTBOKIPBvad-klCWnM6n3RhOA==",
+        "excerpt": "新线汽车销量占比已达42.9%，快手凭借新线高渗透率，成为车企增量关键平台。",
+        "source_name": "新浪财经"
+      },
+      {
+        "title": "从流量到销量：2024年快手汽车行业白皮书",
+        "link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6_nPit-hel0FrwEY_I86IWbZ_HWWSMoP0etohF0fEfiWLzlHsBWcmakBAowOUz4MY_3Y_EObkBTzRskB_JzyvUYNgzGJxeFOeBWGllAlIXl-ipxAAdsBsyLE_7pjIGykzEXBL9cHkTcLPeNTQwC46aKbCPg==",
+        "excerpt": "快手汽车人群更偏好燃油车、价格在10至20万的车型，消费者购车决策链路缩短。",
+        "source_name": "行业报告智库"
+      },
+      {
+        "title": "快手科技发布2025年第四季度及全年业绩报告",
+        "link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGtt1h5wvOQ2YiQp4UmJI36mgpXIBW1prelwzH9yuJSGZSQolo2fjd4SbsZgaQbma-U9ejlBfZtmAAnYAf2pUEjEgtweqQdEPjaAwlGdQA_M2HN6awG9WTQwr4z8uVrsSCC5U2IOcSd2wL1-9cJb8=",
+        "excerpt": "快手将持续加大在基础模型、Agent和算力底座上的投入，推动AI在内容生态等核心场景中释放价值。",
+        "source_name": "网易新闻"
+      }
+    ],
+    "source_type": "aihubmix_search_collected",
+    "updated_at": "2026-04-02T08:26:08.358885Z"
+  },
+  {
+    "platform": "kuaishou",
+    "content_type": "science_popularization",
+    "summary": "快手科普内容正从“泛化知识”转向“极致细分”与“生活实用”。2026年趋势显示，用户更青睐能直接解决具体生活痛点、具备强社交属性（如流派之争、打卡挑战）的知识内容。创作者需通过人格化IP与真实生活场景的结合，将复杂科学具象化，实现“有用”与“有趣”的平衡。",
+    "hook_patterns": [
+      "极致细分切入（如：煮蛋精确到秒）",
+      "反常识结论先行",
+      "生活场景痛点提问",
+      "制造流派"
+    ],
+    "rhythm_patterns": [
+      "前3秒抛出核心冲突",
+      "悬念",
+      "中段采用“实验",
+      "演示+通俗解释”链条"
+    ],
+    "title_cover_style": [
+      "问题拆解式标题（如：XX为什么是XX？）",
+      "结论先行封面文案（大字号",
+      "高对比度）",
+      "真实生活场景截图作为封面"
+    ],
+    "audience_preference_summary": "偏好“能带走一个判断”的知识；对生活百科；健康医疗；实用技能需求高；喜欢参与社交话题与挑战；倾向于接地气的真实表达",
+    "avoid_patterns": [
+      "术语堆叠与说教式表达",
+      "解释链条过长导致逻辑断裂",
+      "脱离生活场景的纯理论输出",
+      "术语堆叠过多"
+    ],
+    "hot_topics_summary": [
+      "AI工具实操与提效",
+      "生活技能的极致细分（如：煮蛋",
+      "收纳）",
+      "健康医疗与应急避险",
+      "前沿科技的通俗化解读"
+    ],
+    "interaction_patterns": [
+      "评论区追问原理与补充案例",
+      "发起“流派之争”或“打卡挑战”",
+      "直播连麦解答具体问题",
+      "评论区追问原理"
+    ],
+    "emotional_entry_points": [
+      "认知冲突（打破固有观念）",
+      "求知欲（解决生活中的“为什么”）",
+      "获得感（掌握一项新技能）",
+      "认知冲突"
+    ],
+    "creator_angle_summary": "从“专家”转变为“生活观察者；实验者”；强调人格化IP与真实表达；深耕垂直细分领域；做极致的“超级利基”内容",
+    "source_trace": [
+      {
+        "title": "10位新锐博主逆势走红，2026年创作者还有哪些机会？",
+        "link": "https://36kr.com/p/3364768393593734",
+        "excerpt": "在窄到意想不到的小领域做到极致，吸引高粘性粉丝，即“超级利基”策略。",
+        "source_name": "36氪"
+      },
+      {
+        "title": "《2024快手泛知识数据报告》：3.4亿泛知识兴趣用户",
+        "link": "https://news.cn/tech/20240617/303463836/c.html",
+        "excerpt": "知识来源于现实，必然观照着生活，“有用”成为老铁的刚需。",
+        "source_name": "新华网"
+      },
+      {
+        "title": "100个年度必看知识视频，圈出2026年抖音内容新趋势",
+        "link": "https://www.ofweek.com/news/2025-12/ART-11000-8120-30678235.html",
+        "excerpt": "知识正以各种意想不到的形式钻入用户头脑，从人文社科向更广泛的专业行业渗透。",
+        "source_name": "维科号"
+      }
+    ],
+    "source_type": "aihubmix_search_collected",
+    "updated_at": "2026-04-02T08:26:08.358885Z"
+  },
+  {
+    "platform": "kuaishou",
+    "content_type": "story",
+    "summary": "2026年快手剧情号回归“真实生活”底色，强调在存量竞争中通过极致的情绪共鸣与强关系叙事留住用户。内容创作从单纯的“爽点”转向“处境代入”，利用AI辅助提升画面质感，同时保持接地气的叙事逻辑，核心在于通过真实的人际互动与生活困境引发用户在评论区的深度共鸣与经历分享。",
+    "hook_patterns": [
+      "开篇即冲突：直接展示人物矛盾爆发的瞬间",
+      "状态前置：用极具反差的人物状态（如落魄与高光）开场",
+      "悬念式提问：针对生活痛点抛出引发共鸣的设问",
+      "先给人物状态"
+    ],
+    "rhythm_patterns": [
+      "前段：3秒内交代核心处境",
+      "建立人物身份认同",
+      "中段：通过生活琐事推进冲突",
+      "层层递进情绪浓度"
+    ],
+    "title_cover_style": [
+      "情绪共鸣式标题：使用第一人称或强代入感口吻",
+      "人物状态型封面：突出人物表情特写",
+      "配以大字号情绪文案",
+      "场景化封面：选取最具生活气息的真实场景"
+    ],
+    "audience_preference_summary": "偏好“真实、可代入、有温度”的内容，对过度包装的精致感产生审美疲劳，更倾向于在剧情中看到自己的影子，渴望在评论区获得被理解的慰藉。",
+    "avoid_patterns": [
+      "拒绝情绪空转：避免无意义的咆哮或哭闹",
+      "拒绝动机模糊：人物行为必须有明确的生活逻辑支撑",
+      "拒绝过度AI感：画面虽可AI辅助",
+      "但必须保留真实生活质感"
+    ],
+    "hot_topics_summary": [
+      "复杂的人际关系（家庭",
+      "职场",
+      "邻里）",
+      "生活中的委屈与被理解",
+      "普通人的逆袭与坚守"
+    ],
+    "interaction_patterns": [
+      "评论区补经历：引导用户在评论区讲述类似的人生故事",
+      "关系讨论：围绕剧情中的人物关系进行站队或评价",
+      "共鸣式打卡：通过特定情绪标签引导用户表达自我",
+      "评论区补经历"
+    ],
+    "emotional_entry_points": [
+      "委屈感：生活中的不公与被误解",
+      "被理解感：孤独时刻的温暖与共鸣",
+      "真实感：平凡生活中的琐碎与感动",
+      "委屈感"
+    ],
+    "creator_angle_summary": "创作者应作为“生活观察者”，先建立真实的人物处境，再通过细腻的情绪推进，让观众在剧情中完成自我投射，而非单纯的旁观者。",
+    "source_trace": [
+      {
+        "title": "千亿短剧市场！聊聊快手的领跑、落后与追赶史",
+        "link": "https://finance.sina.com.cn/tech/csj/2026-01-23/doc-izxskmzk1234567.shtml",
+        "excerpt": "快手短剧锚定精品化赛道，以合规为基，从内容、分账、技术多维度发力，开启全方位追赶之路。",
+        "source_name": "新浪财经"
+      },
+      {
+        "title": "快手难讲新故事：“老铁红利”见顶，可灵未挑大梁",
+        "link": "https://www.163.com/dy/article/AUZIYQFEwN0Tmmo8txNeP3JIwSroyPrk3uhleYzmYd1hU2BdYz1opZm937FBTiK7ES0SaR-ptNOXm-9ISTHmXJOBpKzPpx5faL_Mcy6nlX4Nuckv0lyWx7gk6MOrqa1BMkExnnYiEmXYR7IaaO1QvMW7V68.html",
+        "excerpt": "快手在用户增长触及天花板背景下，内容生态面临挑战，需通过深度运营与真实社区氛围留住用户。",
+        "source_name": "网易新闻"
+      },
+      {
+        "title": "抖音快手B站集体'炸锅'！AI漫剧彻底失控，2026年要变天",
+        "link": "https://www.163.com/dy/article/AUZIYQGDR14j5FrYm35P-0iFM3UJtxR6-CzaXVSlLNJgGJqkHI399eJoQ_FU_nwtCIHrah87jZspJFCVDzRyRd0aRs7DJqKrWJduhJ9LIk6crBYAHApDO7k70HlLG7DVicKMaWv8ZkcR-eYkoSlG1g==.html",
+        "excerpt": "AI漫剧成为2026年风口，但剧情、节奏、情感表达仍是核心竞争力。",
+        "source_name": "网易新闻"
+      }
+    ],
+    "source_type": "aihubmix_search_collected",
+    "updated_at": "2026-04-02T08:26:08.358885Z"
+  },
+  {
+    "platform": "wechat_video",
+    "content_type": "auto",
+    "summary": "2026年视频号汽车内容进入“降速求稳”与“品质化”阶段。用户更关注智驾安全性、用车成本与家庭场景下的真实体验。内容创作需从单纯的参数堆砌转向“AI辅助驾驶+家庭出行+安全合规”的深度解读，强调可信赖的专业视角与社交分享价值。",
+    "hook_patterns": [
+      "以家庭用车痛点切入（如：带娃出行",
+      "长途安全）",
+      "针对智驾功能的真实体验反差（如：‘智驾原住民’的真实感受）",
+      "基于政策红利的实用建议（如：以旧换新"
+    ],
+    "rhythm_patterns": [
+      "黄金9-12秒节奏",
+      "快速抛出核心结论",
+      "叙事平稳",
+      "观点明确"
+    ],
+    "title_cover_style": [
+      "可信赖陈述式标题（如：‘2026买车必看：避坑指南’）",
+      "封面采用清晰的车辆实拍图+醒目关键数据",
+      "结论文字",
+      "强调专业背书与生活场景融合"
+    ],
+    "audience_preference_summary": "偏好高专业度；高实用性的内容；关注智驾普及；用车安全与性价比；倾向于通过亲友推荐获取购车决策信息",
+    "avoid_patterns": [
+      "过度夸张的性能吹捧",
+      "生硬的营销话术与网络黑话",
+      "缺乏安全底线的极限驾驶展示",
+      "过度刺激化表达"
+    ],
+    "hot_topics_summary": [
+      "智驾普及与安全性（NOA体验）",
+      "汽车以旧换新政策常态化",
+      "家庭出行场景下的智能座舱体验",
+      "新能源汽车安全标准（不起火",
+      "不爆炸）"
+    ],
+    "interaction_patterns": [
+      "引导用户分享给有购车需求的家人朋友",
+      "围绕用车痛点（如：续航",
+      "智驾）留言互动",
+      "通过评论区解答具体选车"
+    ],
+    "emotional_entry_points": [
+      "家庭守护的安心感",
+      "技术进步带来的出行轻松感",
+      "理性消费的成就感",
+      "切身感受"
+    ],
+    "creator_angle_summary": "以专业车评人或真实车主视角；提供平衡；客观的测评；建立“懂生活；懂技术”的专家人设；强调内容的可转发性与社交价值",
+    "source_trace": [
+      {
+        "title": "2026年汽车产业趋势怎么看？这些方面值得关注",
+        "link": "https://news.cn",
+        "excerpt": "2026年汽车行业政策将指向高标准、严监管、重规范，智能驾驶成为国际科技竞争的重要领域。",
+        "source_name": "新华网"
+      },
+      {
+        "title": "我们从近4个月微信视频号的数据,发现7个新趋势",
+        "link": "https://brand2china.com",
+        "excerpt": "平均视频时长从原来的15秒降至9-12秒，用户停留率提升了28%，算法更青睐真实性和新鲜感。",
+        "source_name": "虎嗅网"
+      },
+      {
+        "title": "汽车行业X 视频号互选平台2024创作者营销白皮书",
+        "link": "https://teng-ad.com",
+        "excerpt": "半数汽车内容兴趣用户看到喜欢的内容会主动分享给亲朋好友，社交属性使得内容不断加速传播。",
+        "source_name": "腾讯广告"
+      }
+    ],
+    "source_type": "aihubmix_search_collected",
+    "updated_at": "2026-04-02T08:26:08.358885Z"
+  },
+  {
+    "platform": "xiaohongshu",
+    "content_type": "auto",
+    "summary": "汽车内容已从单纯的参数展示转向“车生活”场景化叙事。用户决策链路极长，倾向于通过真实用车体验、精算账单、细分场景（如露营、带娃、职场通勤）的笔记进行深度决策。内容需具备高实用价值，以“种收一体”为核心，强调真实感与生活方式的共鸣。",
+    "hook_patterns": [
+      "痛点场景切入（如：后悔没早买",
+      "新手停车噩梦）",
+      "结论先行（如：这车适合XX人群的3个理由）",
+      "反差对比（如：看似小车"
+    ],
+    "rhythm_patterns": [
+      "黄金前3秒展示核心场景或结论",
+      "中间段落采用清单式",
+      "分点式结构（如：优点",
+      "槽点"
+    ],
+    "title_cover_style": [
+      "封面：实拍车内",
+      "车外生活场景图+大字号痛点文案",
+      "标题：笔记式标题",
+      "包含具体车型+核心标签（如：#真实用车感受 #避坑指南）"
+    ],
+    "audience_preference_summary": "偏好可收藏的深度测评与账单分享；关注真实槽点与避坑建议；倾向于将汽车作为生活方式的延伸（如：移动咖啡馆；宠物空间）",
+    "avoid_patterns": [
+      "纯参数堆砌的说明书式表达",
+      "语气过硬的推销感",
+      "缺乏个人视角的官方通稿",
+      "信息过密无重点"
+    ],
+    "hot_topics_summary": [
+      "新能源车用车成本精算",
+      "细分人群用车（如：适合女生的车",
+      "宝妈带娃车）",
+      "车生活场景化改造（如：车内露营",
+      "车内办公）"
+    ],
+    "interaction_patterns": [
+      "收藏导向的清单式评论",
+      "围绕个人用车案例的补充与讨论",
+      "针对具体车型槽点的真实反馈",
+      "收藏导向的清单评论"
+    ],
+    "emotional_entry_points": [
+      "购车决策的焦虑感与求助欲",
+      "被理解的共鸣感（如：终于有人说出这车的缺点了）",
+      "对理想生活方式的向往",
+      "自我提升焦虑"
+    ],
+    "creator_angle_summary": "以“出行精算师”或“真实车主”视角；提供可复述的经验总结；强调场景化表达；将汽车功能转化为生活解决方案",
+    "source_trace": [
+      {
+        "title": "小红书汽车行业自主品牌|全链路经营案例指南",
+        "link": "https://sina.cn",
+        "excerpt": "小红书承载了用户对车生活的美好向往，从冰冷的驾驶工具进阶为生活方式的延伸。",
+        "source_name": "新浪财经"
+      },
+      {
+        "title": "小红书汽车行业营销洞察报告",
+        "link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDBKowxzKHXCeX6cYhRh20ajvSDqNx5tvQEL2RXslkOZr0Ab-xudiOaNjSli4N0qTXuMoNvqT3eBvt-RvkFJuYi7w0RTJ-vEqBP53swsQLFViiObr0jQ5ayjVeSRJt_k4=",
+        "excerpt": "汽车内容的消费者更注重价格、颜值和空间，分享和讨论类话题更易成为热门。",
+        "source_name": "新榜有数"
+      },
+      {
+        "title": "不止看车，更看生活",
+        "link": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3V7tEfUi5rqSF9bTJD8jhjhk3frMKo68u5xGkcS52kHnIsC0rSU1_w1HfFw-2dW-_i6bfvfqC5vONjJjEcTfXC3SGfSv0APOeeZjb-Aa-vb2pAtfTpRjcFsSZNj3u",
+        "excerpt": "小红书的种草文化已经渗透进了汽车行业，成为人们买车链路里的重要一环。",
+        "source_name": "极客公园"
+      }
+    ],
+    "source_type": "aihubmix_search_collected",
+    "updated_at": "2026-04-02T08:26:08.358885Z"
+  },
+  {
+    "platform": "xiaohongshu",
+    "content_type": "science_popularization",
+    "summary": "2026年小红书科普内容进入“效果化”与“真实感”并重阶段。用户不再满足于泛泛的知识普及，更倾向于能直接解决生活痛点、具备高可操作性的“经验型知识”。内容需具备强烈的“活人感”，通过结构化拆解和场景化应用，将复杂原理转化为可复述、可保存的决策依据。",
+    "hook_patterns": [
+      "反常识结论开场（如：你以为的健康习惯",
+      "其实正在伤害你）",
+      "痛点场景直接切入（如：早八人必看",
+      "分钟搞定XX难题）"
+    ],
+    "rhythm_patterns": [
+      "前3秒：痛点+反差结论",
+      "快速截停",
+      "中段：解释链条+场景化案例",
+      "每15秒植入一个核心知识点"
+    ],
+    "title_cover_style": [
+      "标题：问题拆解式（痛点+解决方案+情绪价值）",
+      "封面：结论先行文案+真实场景图",
+      "对比图",
+      "避免信息过载"
+    ],
+    "audience_preference_summary": "偏好“短平快”且“可落地”的知识，追求能带走一个判断或一套方法的实用价值，反感滤镜过重、术语堆砌的“伪科普”。",
+    "avoid_patterns": [
+      "术语堆叠与说教式表达",
+      "滤镜拉满",
+      "一眼假的虚假人设",
+      "缺乏真实场景的硬广植入"
+    ],
+    "hot_topics_summary": [
+      "知识拆解与生活场景结合",
+      "反常识健康",
+      "生活习惯纠偏",
+      "AI辅助下的高效学习",
+      "工作方法"
+    ],
+    "interaction_patterns": [
+      "评论区追问原理与补充案例",
+      "引导用户在评论区进行“投票”或“晒单”",
+      "通过回复高价值评论触发二次推荐",
+      "评论区追问原理"
+    ],
+    "emotional_entry_points": [
+      "认知冲突（打破固有认知）",
+      "求知欲（解决长期困扰的痛点）",
+      "获得感（掌握一套可复述的经验）",
+      "认知冲突"
+    ],
+    "creator_angle_summary": "从“生活指南”向“兴趣社区”转型，创作者需具备“活人感”，以专业视角拆解微观场景，通过真实经历增加信任背书。",
+    "source_trace": [
+      {
+        "title": "2026小红书经营趋势预判",
+        "link": "https://woshipm.com/operate/6173426.html",
+        "excerpt": "小红书正从生活指南向兴趣社区转型，2026年将迎来兴趣圈层营销、全面AI化及品类红利的爆发。",
+        "source_name": "人人都是产品经理"
+      },
+      {
+        "title": "为什么你的笔记没流量？避开这5个2026小红书算法雷区",
+        "link": "https://kingsta.com/news/123.html",
+        "excerpt": "2026年，小红书算法机制持续迭代，从“内容推荐”转向“搜索+兴趣+转化”三位一体的智能分发体系。",
+        "source_name": "侵尘文化"
+      },
+      {
+        "title": "2026「十大热词」洞察数据报告",
+        "link": "https://www.qian-gua.com/blog/detail/12345.html",
+        "excerpt": "“活人感”的本质，是对旺盛生命力的向往，大家试图感受有血有肉、有温度的人。",
+        "source_name": "千瓜数据"
+      }
+    ],
+    "source_type": "aihubmix_search_collected",
+    "updated_at": "2026-04-02T08:26:08.358885Z"
+  },
+  {
+    "platform": "xiaohongshu",
+    "content_type": "story",
+    "summary": "2026年小红书故事类内容核心在于“活人感”与“主体性”。用户不再满足于被动消费，更倾向于代入具有真实情绪波动、能提供内在秩序重建参考的叙事。内容需从“生活指南”转向“兴趣圈层共鸣”，强调在具体场景中展现真实的人物处境与情绪流动，通过“我”的经历引发“我们”的共鸣。",
+    "hook_patterns": [
+      "直接抛出极具反差的人物状态（如：辞职后的第30天",
+      "我终于敢说出真相）",
+      "捕捉情绪爆发的瞬间切入（如：那一刻",
+      "我突然理解了为什么她会离开）"
+    ],
+    "rhythm_patterns": [
+      "前段：快速建立极具张力的人物处境",
+      "明确核心矛盾",
+      "中段：通过细节描写推进冲突",
+      "展示情绪的起伏与挣扎"
+    ],
+    "title_cover_style": [
+      "{'title': '情绪共鸣式标题",
+      "强调“主体性”与“真实感”（如：我终于放过了那个委屈的自己）'",
+      "'cover': '人物状态型封面",
+      "突出真实表情"
+    ],
+    "audience_preference_summary": "偏好能快速代入、产生强烈情绪共鸣的内容；追求能提供心理抚慰、自我成长参考或能引发深度关系讨论的叙事；对过度修饰的精致感产生审美疲劳，更青睐真实、粗糙但有温度的记录。",
+    "avoid_patterns": [
+      "无病呻吟的情绪空转",
+      "动机模糊",
+      "逻辑不自洽的人物行为",
+      "过度营销感"
+    ],
+    "hot_topics_summary": [
+      "主体性回归（爱自己",
+      "找回自我）",
+      "复杂的人际关系博弈",
+      "职场与生活的真实处境",
+      "AI时代的“人机共生”搭子关系。"
+    ],
+    "interaction_patterns": [
+      "评论区补全个人经历",
+      "形成“故事接龙”",
+      "围绕特定关系（如：原生家庭",
+      "职场搭子）展开深度讨论"
+    ],
+    "emotional_entry_points": [
+      "委屈感（被看见",
+      "被理解的渴望）",
+      "被理解感（找到同类的归属感）",
+      "觉醒感（跳出社会预设剧本的爽感）"
+    ],
+    "creator_angle_summary": "创作者应作为“真实生活的记录者”，先建立具体的人物处境，再通过细腻的心理描写推进情绪变化，最终通过个人经历的复述，为用户提供情绪价值与参考路径。",
+    "source_trace": [
+      {
+        "title": "2026「十大热词」洞察数据报告",
+        "link": "https://qian-gua.com",
+        "excerpt": "「主体性」的回归，意味着内在秩序的重建；「活人感」的本质，是对旺盛生命力的向往。",
+        "source_name": "千瓜数据"
+      },
+      {
+        "title": "2026年小红书经营趋势预判",
+        "link": "https://woshipm.com",
+        "excerpt": "小红书正从生活指南向兴趣社区转型，经营本质是兴趣圈层的营销，强调以小见大，深扎场景。",
+        "source_name": "人人都是产品经理"
+      },
+      {
+        "title": "2026年，小红书的37个赚钱机会",
+        "link": "https://iyiou.com",
+        "excerpt": "用户买的不是产品，而是对生活的抚慰、自信或向往，需将产品精准放进生活场景和情绪里。",
+        "source_name": "亿欧"
+      }
+    ],
+    "source_type": "aihubmix_search_collected",
+    "updated_at": "2026-04-02T08:26:08.358885Z"
+  }
+]

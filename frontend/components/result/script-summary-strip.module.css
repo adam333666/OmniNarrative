@@ -1,0 +1,58 @@
+.grid {
+  display: grid;
+  gap: 0.8rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin-top: 1rem;
+}
+
+.card {
+  display: grid;
+  gap: 0.7rem;
+  border: 1px solid rgba(32, 37, 61, 0.08);
+  border-radius: 24px;
+  padding: 1rem;
+  background: linear-gradient(180deg, rgba(255, 252, 247, 0.98), rgba(247, 238, 227, 0.94));
+  box-shadow: 0 14px 32px rgba(33, 22, 15, 0.05);
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.index,
+.tempo {
+  display: inline-flex;
+  border-radius: 999px;
+  padding: 0.3rem 0.68rem;
+  font-size: 0.8rem;
+}
+
+.index {
+  background: rgba(180, 79, 44, 0.1);
+  color: #8f4528;
+}
+
+.tempo {
+  background: rgba(63, 140, 126, 0.12);
+  color: #22584f;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.02rem;
+}
+
+.goal {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.linkText {
+  color: #8f4528;
+  font-weight: 600;
+}

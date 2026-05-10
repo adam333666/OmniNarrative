@@ -1,0 +1,88 @@
+.wrapper {
+  display: grid;
+  gap: 1rem;
+}
+
+.copyBlock {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.eyebrow {
+  display: inline-flex;
+  width: fit-content;
+  border-radius: 999px;
+  padding: 0.34rem 0.72rem;
+  background: rgba(63, 140, 126, 0.1);
+  color: #22584f;
+  font-size: 0.74rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.22rem;
+}
+
+.lead {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.deckShell {
+  min-height: 18rem;
+  display: grid;
+  justify-items: start;
+}
+
+.swapCard {
+  overflow: hidden;
+  background:
+    radial-gradient(circle at top right, rgba(63, 140, 126, 0.18), transparent 32%),
+    linear-gradient(165deg, rgba(17, 19, 32, 0.98), rgba(31, 43, 68, 0.94));
+}
+
+.cardInner {
+  display: grid;
+  height: 100%;
+  align-content: start;
+  gap: 0.85rem;
+  padding: 1.25rem;
+  color: #fff7ef;
+}
+
+.cardTag {
+  display: inline-flex;
+  justify-self: start;
+  border-radius: 999px;
+  padding: 0.28rem 0.7rem;
+  background: rgba(255, 255, 255, 0.08);
+  color: #c9f0e6;
+  font-size: 0.74rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.cardTitle {
+  margin: 0;
+  font-size: 1.35rem;
+}
+
+.cardBody {
+  margin: 0;
+  color: rgba(250, 240, 232, 0.86);
+  line-height: 1.75;
+}
+
+.cardAccent {
+  display: inline-flex;
+  justify-self: start;
+  margin-top: auto;
+  border-radius: 999px;
+  padding: 0.42rem 0.78rem;
+  background: rgba(63, 140, 126, 0.18);
+  color: #b9f4e7;
+  font-size: 0.83rem;
+}

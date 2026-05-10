@@ -1,0 +1,98 @@
+.section {
+  display: grid;
+  gap: 1rem;
+}
+
+.copy {
+  display: grid;
+  gap: 0.7rem;
+  max-width: 52rem;
+}
+
+.eyebrow {
+  display: inline-flex;
+  width: fit-content;
+  border-radius: 999px;
+  padding: 0.34rem 0.72rem;
+  background: rgba(31, 29, 26, 0.06);
+  color: var(--accent-2);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 0;
+  font-size: clamp(1.55rem, 3vw, 2.2rem);
+  line-height: 1.15;
+}
+
+.lead {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.card {
+  min-height: 100%;
+}
+
+.cardActive {
+  transform: translateY(-2px);
+}
+
+.cardInner {
+  display: grid;
+  gap: 0.7rem;
+  padding: 1.15rem;
+}
+
+.badge {
+  display: inline-flex;
+  width: fit-content;
+  border-radius: 999px;
+  padding: 0.3rem 0.66rem;
+  background: rgba(31, 29, 26, 0.06);
+  color: var(--accent-2);
+  font-size: 0.74rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.cardTitle {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.cardCopy {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.72;
+}
+
+.metaRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.metaChip {
+  display: inline-flex;
+  border-radius: 999px;
+  padding: 0.34rem 0.68rem;
+  background: rgba(31, 29, 26, 0.06);
+  color: var(--foreground);
+  font-size: 0.8rem;
+}
+
+.cardLink {
+  margin-top: auto;
+  color: var(--accent);
+  font-weight: 700;
+}

@@ -1,0 +1,57 @@
+.shell {
+  display: grid;
+  gap: 0.9rem;
+  margin-top: 1rem;
+}
+
+.header {
+  display: grid;
+  gap: 0.3rem;
+}
+
+.eyebrow {
+  margin: 0;
+  color: #8f4528;
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.grid {
+  display: grid;
+  gap: 0.8rem;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.card {
+  display: grid;
+  gap: 0.65rem;
+  border: 1px solid rgba(180, 79, 44, 0.14);
+  border-radius: 24px;
+  padding: 1rem;
+  background:
+    radial-gradient(circle at top right, rgba(222, 115, 70, 0.14), transparent 42%),
+    linear-gradient(180deg, rgba(255, 251, 245, 0.98), rgba(247, 238, 227, 0.94));
+  box-shadow: 0 14px 32px rgba(33, 22, 15, 0.05);
+}
+
+.index {
+  display: inline-flex;
+  width: fit-content;
+  border-radius: 999px;
+  padding: 0.3rem 0.68rem;
+  background: rgba(180, 79, 44, 0.12);
+  color: #8f4528;
+  font-size: 0.8rem;
+}
+
+.value {
+  margin: 0;
+  color: var(--foreground);
+  line-height: 1.75;
+}

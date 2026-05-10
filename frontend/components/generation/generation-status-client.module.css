@@ -1,0 +1,288 @@
+.layout {
+  display: grid;
+  gap: 1.1rem;
+}
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(32, 37, 61, 0.08);
+  border-radius: 30px;
+  background:
+    radial-gradient(circle at top right, rgba(221, 122, 76, 0.18), transparent 28%),
+    linear-gradient(180deg, rgba(20, 24, 35, 0.98), rgba(28, 21, 18, 0.96));
+  color: #fff7ef;
+  box-shadow: 0 24px 60px rgba(20, 13, 10, 0.16);
+}
+
+.gridLayer {
+  position: absolute;
+  inset: 0;
+  opacity: 0.45;
+}
+
+.heroInner {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: 1rem;
+  padding: 1.5rem;
+}
+
+.eyebrow {
+  display: inline-flex;
+  width: fit-content;
+  border-radius: 999px;
+  padding: 0.34rem 0.72rem;
+  background: rgba(255, 247, 239, 0.12);
+  color: #ffd8c7;
+  font-size: 0.74rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.heroTitle {
+  margin: 0;
+  font-size: clamp(1.9rem, 4vw, 3rem);
+  line-height: 0.95;
+}
+
+.heroLead {
+  margin: 0;
+  color: rgba(255, 247, 239, 0.78);
+  line-height: 1.75;
+}
+
+.typedLine {
+  min-height: 2.7rem;
+  color: #ffcfb8;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.7;
+}
+
+.metaGrid {
+  display: grid;
+  gap: 0.8rem;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.toolLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.toolLink {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 0.72rem 1rem;
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffe3d4;
+  font-weight: 700;
+}
+
+.metaCard {
+  border: 1px solid rgba(255, 247, 239, 0.12);
+  border-radius: 22px;
+  padding: 0.95rem 1rem;
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(8px);
+}
+
+.metaLabel {
+  margin: 0;
+  color: rgba(255, 247, 239, 0.56);
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.metaValue {
+  margin: 0.45rem 0 0;
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.card {
+  border: 1px solid rgba(32, 37, 61, 0.08);
+  border-radius: 28px;
+  background: rgba(255, 251, 245, 0.92);
+  box-shadow: 0 18px 50px rgba(33, 22, 15, 0.06);
+}
+
+.cardInner {
+  padding: 1.35rem;
+}
+
+.sectionTitle {
+  margin: 0 0 0.35rem;
+  font-size: 1.35rem;
+}
+
+.sectionLead {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.progressRail {
+  position: relative;
+  margin-top: 1.15rem;
+  padding-left: 1.15rem;
+}
+
+.progressRail::before {
+  content: "";
+  position: absolute;
+  left: 0.3rem;
+  top: 0.3rem;
+  bottom: 0.3rem;
+  width: 2px;
+  background: linear-gradient(180deg, rgba(180, 79, 44, 0.18), rgba(47, 119, 109, 0.12));
+}
+
+.stageList {
+  display: grid;
+  gap: 0.85rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.stageItem {
+  position: relative;
+  border-radius: 20px;
+  padding: 0.95rem 1rem 0.95rem 1.05rem;
+  background: rgba(255, 255, 255, 0.76);
+}
+
+.stageItem::before {
+  content: "";
+  position: absolute;
+  left: -1.1rem;
+  top: 1.05rem;
+  width: 0.9rem;
+  height: 0.9rem;
+  border-radius: 999px;
+  border: 2px solid rgba(180, 79, 44, 0.2);
+  background: #fffaf3;
+}
+
+.stageDone::before {
+  background: linear-gradient(135deg, #b44f2c, #dd7a4c);
+  border-color: transparent;
+}
+
+.stageActive::before {
+  background: #fffaf3;
+  border-color: #2f776d;
+  box-shadow: 0 0 0 6px rgba(47, 119, 109, 0.14);
+}
+
+.stageHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.stageTitle {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.stageBadge {
+  border-radius: 999px;
+  padding: 0.28rem 0.62rem;
+  background: rgba(31, 29, 26, 0.06);
+  color: var(--accent-2);
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.stageCopy {
+  margin: 0.42rem 0 0;
+  color: var(--muted);
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+.statusBody {
+  display: grid;
+  gap: 0.9rem;
+  margin-top: 1rem;
+}
+
+.statusChipRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.statusChip {
+  border-radius: 999px;
+  padding: 0.4rem 0.75rem;
+  background: rgba(63, 140, 126, 0.12);
+  color: #22584f;
+  font-size: 0.84rem;
+}
+
+.currentMessage {
+  border-left: 3px solid rgba(180, 79, 44, 0.28);
+  padding-left: 0.9rem;
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+.success {
+  color: #22584f;
+}
+
+.errorCard {
+  background: rgba(180, 35, 24, 0.08);
+  border: 1px solid rgba(180, 35, 24, 0.2);
+  border-radius: 24px;
+  padding: 1.25rem;
+}
+
+.errorText {
+  color: #912018;
+  margin-top: 0;
+}
+
+.recentStage {
+  color: var(--muted);
+  margin-bottom: 1rem;
+}
+
+.actionRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.retryButton {
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 10px 16px;
+  background: var(--foreground);
+  color: var(--background);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.linkAction {
+  color: var(--accent);
+  font-weight: 700;
+  align-self: center;
+}
+
+@media (max-width: 720px) {
+  .heroInner,
+  .cardInner {
+    padding: 1.1rem;
+  }
+}

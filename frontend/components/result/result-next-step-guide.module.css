@@ -1,0 +1,82 @@
+.section {
+  display: grid;
+  gap: 1rem;
+}
+
+.copy {
+  display: grid;
+  gap: 0.7rem;
+}
+
+.eyebrow {
+  display: inline-flex;
+  width: fit-content;
+  border-radius: 999px;
+  padding: 0.32rem 0.68rem;
+  background: rgba(31, 29, 26, 0.06);
+  color: var(--accent-2);
+  font-size: 0.74rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.lead,
+.meta {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.meta {
+  font-size: 0.88rem;
+}
+
+.grid {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.cardShell {
+  height: 100%;
+}
+
+.card {
+  display: grid;
+  gap: 0.75rem;
+  min-height: 180px;
+  padding: 1.15rem;
+}
+
+.stepIndex {
+  display: inline-flex;
+  width: fit-content;
+  border-radius: 999px;
+  padding: 0.28rem 0.6rem;
+  background: rgba(31, 29, 26, 0.06);
+  color: #8f4528;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.cardTitle {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.cardCopy {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.cardLink {
+  margin-top: auto;
+  color: var(--accent);
+  font-weight: 700;
+}

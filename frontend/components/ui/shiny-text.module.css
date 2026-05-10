@@ -1,0 +1,34 @@
+.shiny {
+  position: relative;
+  display: inline-block;
+  color: var(--shiny-base, currentColor);
+  background-image: linear-gradient(
+    var(--shiny-angle, 120deg),
+    var(--shiny-base, currentColor) 0%,
+    var(--shiny-base, currentColor) 36%,
+    var(--shiny-highlight, rgba(255, 255, 255, 0.95)) 50%,
+    var(--shiny-base, currentColor) 64%,
+    var(--shiny-base, currentColor) 100%
+  );
+  background-size: 220% 100%;
+  background-position: 100% 50%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine var(--shiny-duration, 5s) linear infinite;
+}
+
+.paused,
+.shiny:hover[data-pause-on-hover="true"] {
+  animation-play-state: paused;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 150% 50%;
+  }
+
+  100% {
+    background-position: -90% 50%;
+  }
+}

@@ -1,0 +1,175 @@
+.grid {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(var(--cols, 3), minmax(220px, 1fr));
+  justify-content: stretch;
+  gap: 0.85rem;
+  padding: 0.35rem 0;
+  box-sizing: border-box;
+  --x: 50%;
+  --y: 50%;
+  --r: 220px;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 260px;
+  border-radius: 24px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: border-color 0.3s ease;
+  background: var(--card-gradient);
+  --mouse-x: 50%;
+  --mouse-y: 50%;
+  --spotlight-color: rgba(255, 255, 255, 0.26);
+}
+
+.card:hover {
+  border-color: var(--card-border);
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at var(--mouse-x) var(--mouse-y), var(--spotlight-color), transparent 70%);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  z-index: 2;
+}
+
+.card:hover::before {
+  opacity: 1;
+}
+
+.previewShell {
+  position: relative;
+  z-index: 1;
+  flex: 1;
+  padding: 0.95rem;
+}
+
+.previewCard {
+  display: grid;
+  align-content: end;
+  height: 100%;
+  border-radius: 16px;
+  padding: 1rem;
+  background:
+    radial-gradient(circle at top right, rgba(255, 214, 190, 0.14), transparent 24%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.02));
+  color: #fff7ef;
+  white-space: pre-line;
+  font-size: 0.9rem;
+  line-height: 1.65;
+}
+
+.info {
+  position: relative;
+  z-index: 1;
+  padding: 0.85rem 1rem 1rem;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  row-gap: 0.25rem;
+  column-gap: 0.75rem;
+}
+
+.name {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.role,
+.handle,
+.location {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.role {
+  margin: 0;
+  grid-column: 1 / span 2;
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+
+.handle,
+.location {
+  font-size: 0.8rem;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 3;
+  backdrop-filter: grayscale(0.95) brightness(0.82);
+  -webkit-backdrop-filter: grayscale(0.95) brightness(0.82);
+  background: rgba(0, 0, 0, 0.001);
+  mask-image: radial-gradient(
+    circle var(--r) at var(--x) var(--y),
+    transparent 0%,
+    transparent 14%,
+    rgba(0, 0, 0, 0.08) 28%,
+    rgba(0, 0, 0, 0.22) 44%,
+    rgba(0, 0, 0, 0.36) 60%,
+    rgba(0, 0, 0, 0.52) 76%,
+    rgba(0, 0, 0, 0.7) 90%,
+    white 100%
+  );
+  -webkit-mask-image: radial-gradient(
+    circle var(--r) at var(--x) var(--y),
+    transparent 0%,
+    transparent 14%,
+    rgba(0, 0, 0, 0.08) 28%,
+    rgba(0, 0, 0, 0.22) 44%,
+    rgba(0, 0, 0, 0.36) 60%,
+    rgba(0, 0, 0, 0.52) 76%,
+    rgba(0, 0, 0, 0.7) 90%,
+    white 100%
+  );
+}
+
+.fade {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 4;
+  backdrop-filter: grayscale(0.95) brightness(0.82);
+  -webkit-backdrop-filter: grayscale(0.95) brightness(0.82);
+  background: rgba(0, 0, 0, 0.001);
+  mask-image: radial-gradient(
+    circle var(--r) at var(--x) var(--y),
+    white 0%,
+    white 14%,
+    rgba(255, 255, 255, 0.9) 28%,
+    rgba(255, 255, 255, 0.78) 44%,
+    rgba(255, 255, 255, 0.65) 60%,
+    rgba(255, 255, 255, 0.48) 76%,
+    rgba(255, 255, 255, 0.3) 90%,
+    transparent 100%
+  );
+  -webkit-mask-image: radial-gradient(
+    circle var(--r) at var(--x) var(--y),
+    white 0%,
+    white 14%,
+    rgba(255, 255, 255, 0.9) 28%,
+    rgba(255, 255, 255, 0.78) 44%,
+    rgba(255, 255, 255, 0.65) 60%,
+    rgba(255, 255, 255, 0.48) 76%,
+    rgba(255, 255, 255, 0.3) 90%,
+    transparent 100%
+  );
+  opacity: 1;
+  transition: opacity 0.25s ease;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

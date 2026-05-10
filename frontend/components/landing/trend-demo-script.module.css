@@ -1,0 +1,80 @@
+.section {
+  display: grid;
+  gap: 1rem;
+}
+
+.copy {
+  display: grid;
+  gap: 0.75rem;
+  max-width: 54rem;
+}
+
+.eyebrow {
+  display: inline-flex;
+  width: fit-content;
+  border-radius: 999px;
+  padding: 0.34rem 0.72rem;
+  background: rgba(31, 29, 26, 0.06);
+  color: var(--accent-2);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 0;
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  line-height: 1.14;
+}
+
+.lead {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.cardShell {
+  height: 100%;
+}
+
+.card {
+  display: grid;
+  gap: 0.8rem;
+  min-height: 220px;
+  padding: 1.25rem;
+}
+
+.index {
+  display: inline-flex;
+  width: fit-content;
+  border-radius: 999px;
+  padding: 0.3rem 0.66rem;
+  background: rgba(31, 29, 26, 0.06);
+  color: #8f4528;
+  font-size: 0.76rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.cardTitle {
+  margin: 0;
+  font-size: 1.12rem;
+}
+
+.cardBody {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.72;
+}
+
+.cardLink {
+  margin-top: auto;
+  color: var(--accent);
+  font-weight: 700;
+}

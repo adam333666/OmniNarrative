@@ -1,0 +1,118 @@
+.wrapper {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 360px);
+  align-items: start;
+  margin-bottom: 1.1rem;
+}
+
+.copyBlock {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.eyebrow {
+  display: inline-flex;
+  justify-self: start;
+  border-radius: 999px;
+  padding: 0.35rem 0.72rem;
+  background: rgba(31, 29, 26, 0.06);
+  color: var(--accent-2);
+  font-size: 0.76rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.18rem;
+}
+
+.lead {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.deckShell {
+  min-height: 18rem;
+  display: grid;
+  justify-items: end;
+}
+
+.swapCard {
+  overflow: hidden;
+  background:
+    radial-gradient(circle at top right, rgba(239, 124, 72, 0.16), transparent 28%),
+    linear-gradient(165deg, rgba(17, 19, 32, 0.98), rgba(31, 43, 68, 0.94));
+}
+
+.cardInner {
+  display: grid;
+  height: 100%;
+  align-content: start;
+  gap: 0.85rem;
+  padding: 1.25rem;
+  color: #fff7ef;
+}
+
+.cardTag {
+  display: inline-flex;
+  justify-self: start;
+  border-radius: 999px;
+  padding: 0.28rem 0.7rem;
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffd8bf;
+  font-size: 0.74rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.cardTitle {
+  margin: 0;
+  font-size: 1.35rem;
+}
+
+.cardList {
+  display: grid;
+  gap: 0.7rem;
+}
+
+.cardItem {
+  display: flex;
+  gap: 0.65rem;
+  align-items: flex-start;
+  color: rgba(250, 240, 232, 0.86);
+  line-height: 1.6;
+}
+
+.cardDot {
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 999px;
+  margin-top: 0.45rem;
+  background: #ffbf95;
+  flex: 0 0 auto;
+}
+
+.cardAccent {
+  display: inline-flex;
+  justify-self: start;
+  margin-top: auto;
+  border-radius: 999px;
+  padding: 0.42rem 0.78rem;
+  background: rgba(239, 124, 72, 0.16);
+  color: #ffbf95;
+  font-size: 0.83rem;
+}
+
+@media (max-width: 900px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .deckShell {
+    justify-items: start;
+    min-height: 16rem;
+  }
+}

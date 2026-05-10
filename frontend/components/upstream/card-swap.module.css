@@ -1,0 +1,19 @@
+.container {
+  position: relative;
+  perspective: 900px;
+  overflow: visible;
+}
+
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 26px;
+  border: 1px solid rgba(255, 255, 255, 0.82);
+  background: rgba(14, 15, 26, 0.92);
+  box-shadow: 0 28px 80px rgba(10, 10, 18, 0.34);
+  transform-style: preserve-3d;
+  will-change: transform;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
