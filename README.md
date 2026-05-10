@@ -14,7 +14,7 @@
 
 🎥 **猛戳下方查看完整项目演示视频** 🎥
 
-<video src="./视频1.mp4" controls="controls" width="100%" muted="true"></video>
+https://github.com/adam333666/OmniNarrative/raw/main/demo_video.mp4
 
 ---
 
